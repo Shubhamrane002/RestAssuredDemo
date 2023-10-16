@@ -70,6 +70,7 @@ public class StepDefination extends Utils {
 		user_calls_with_post_http_request(resource,"GET");
 		String actualName = getJsonPath(response, "name");
 		assertEquals(actualName, expectedName);
+		System.out.println(actualName);
 		
 	}
 	
