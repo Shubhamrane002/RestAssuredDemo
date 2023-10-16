@@ -72,6 +72,11 @@ public class StepDefination extends Utils {
 		assertEquals(actualName, expectedName);
 		System.out.println(actualName);
 		
+		//from demo 2
+		System.out.println(actualName);
+		System.out.println(actualName);
+		System.out.println(actualName);
+		
 	}
 	
 	@Given("Delete place payload")
